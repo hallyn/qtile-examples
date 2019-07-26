@@ -221,7 +221,10 @@ border_args = dict(
 layout_style = {
     'font': 'ubuntu',
     'border_normal_stack': '#000022',
-    'border_focus_stack': '#0000ff'
+    'border_focus_stack': '#0000ff',
+    'wrap_focus_columns': False,
+    'wrap_focus_rows': False,
+    'focus_window_move': True
 }
 
 layouts = [
